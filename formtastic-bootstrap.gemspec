@@ -4,11 +4,11 @@
 # -*- encoding: utf-8 -*-
 
 Gem::Specification.new do |s|
-  s.name = "formtastic-bootstrap"
-  s.version = "1.1.2"
+  s.name = "speedo-formstrap"
+  s.version = "1.2.4"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
-  s.authors = ["Matthew Bellantoni"]
+  s.authors = ["Matthew Bellantoni", "Stu Basden"]
   s.date = "2011-12-21"
   s.description = "Formtastic form builder to generate Twitter Bootstrap-friendly markup."
   s.email = "mjbellantoni@yahoo.com"
@@ -94,7 +94,7 @@ Gem::Specification.new do |s|
     "spec/support/formtastic_spec_helper.rb",
     "vendor/assets/stylesheets/formtastic-bootstrap.css"
   ]
-  s.homepage = "http://github.com/mjbellantoni/formtastic-bootstrap"
+  s.homepage = "http://github.com/thugsb/formtastic-bootstrap"
   s.licenses = ["MIT"]
   s.require_paths = ["lib"]
   s.rubygems_version = "1.8.10"
