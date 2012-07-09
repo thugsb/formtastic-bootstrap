@@ -5,7 +5,7 @@
 
 Gem::Specification.new do |s|
   s.name = "speedo-formstrap"
-  s.version = "1.2.4"
+  s.version = "1.2.5"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Matthew Bellantoni", "Stu Basden"]
@@ -25,7 +25,6 @@ Gem::Specification.new do |s|
     "README.md",
     "Rakefile",
     "VERSION",
-    "formtastic-bootstrap.gemspec",
     "lib/action_view/helpers/text_field_date_helper.rb",
     "lib/formtastic-bootstrap.rb",
     "lib/formtastic-bootstrap/engine.rb",
@@ -92,6 +91,7 @@ Gem::Specification.new do |s|
     "spec/support/custom_macros.rb",
     "spec/support/depracation.rb",
     "spec/support/formtastic_spec_helper.rb",
+    "speedo-formstrap.gemspec",
     "vendor/assets/stylesheets/formtastic-bootstrap.css"
   ]
   s.homepage = "http://github.com/thugsb/formtastic-bootstrap"
