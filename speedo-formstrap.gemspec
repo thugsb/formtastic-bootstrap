@@ -5,13 +5,13 @@
 
 Gem::Specification.new do |s|
   s.name = "speedo-formstrap"
-  s.version = "1.2.6"
+  s.version = "1.2.7"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Matthew Bellantoni", "Stu Basden"]
   s.date = "2012-07-09"
   s.description = "Formtastic form builder to generate Twitter Bootstrap-friendly markup."
-  s.email = "mjbellantoni@yahoo.com"
+  s.email = "stu@t.apio.ca"
   s.extra_rdoc_files = [
     "LICENSE.txt",
     "README.md"
@@ -63,7 +63,6 @@ Gem::Specification.new do |s|
     "lib/formtastic-bootstrap/inputs/time_input.rb",
     "lib/formtastic-bootstrap/inputs/time_zone_input.rb",
     "lib/formtastic-bootstrap/inputs/url_input.rb",
-    "spec/builder/errors_spec.rb",
     "spec/builder/semantic_fields_for_spec.rb",
     "spec/helpers/buttons_helper_spec.rb",
     "spec/helpers/input_helper_spec.rb",
@@ -91,7 +90,6 @@ Gem::Specification.new do |s|
     "spec/support/custom_macros.rb",
     "spec/support/depracation.rb",
     "spec/support/formtastic_spec_helper.rb",
-    "speedo-formstrap.gemspec",
     "vendor/assets/stylesheets/formtastic-bootstrap.css"
   ]
   s.homepage = "http://github.com/thugsb/formtastic-bootstrap"
@@ -104,29 +102,29 @@ Gem::Specification.new do |s|
     s.specification_version = 3
 
     if Gem::Version.new(Gem::VERSION) >= Gem::Version.new('1.2.0') then
-      s.add_runtime_dependency(%q<formtastic>, [">= 0"])
+      s.add_runtime_dependency(%q<formtastic>, ["~> 2.1.0.beta1"])
       s.add_runtime_dependency(%q<rails>, [">= 3.1.0"])
       s.add_development_dependency(%q<rspec>, [">= 0"])
       s.add_development_dependency(%q<bundler>, [">= 0"])
       s.add_development_dependency(%q<jeweler>, [">= 0"])
-      s.add_development_dependency(%q<rcov>, [">= 0"])
+      s.add_development_dependency(%q<simplecov>, [">= 0"])
       s.add_development_dependency(%q<rspec_tag_matchers>, [">= 0"])
     else
-      s.add_dependency(%q<formtastic>, [">= 0"])
+      s.add_dependency(%q<formtastic>, ["~> 2.1.0.beta1"])
       s.add_dependency(%q<rails>, [">= 3.1.0"])
       s.add_dependency(%q<rspec>, [">= 0"])
       s.add_dependency(%q<bundler>, [">= 0"])
       s.add_dependency(%q<jeweler>, [">= 0"])
-      s.add_dependency(%q<rcov>, [">= 0"])
+      s.add_dependency(%q<simplecov>, [">= 0"])
       s.add_dependency(%q<rspec_tag_matchers>, [">= 0"])
     end
   else
-    s.add_dependency(%q<formtastic>, [">= 0"])
+    s.add_dependency(%q<formtastic>, ["~> 2.1.0.beta1"])
     s.add_dependency(%q<rails>, [">= 3.1.0"])
     s.add_dependency(%q<rspec>, [">= 0"])
     s.add_dependency(%q<bundler>, [">= 0"])
     s.add_dependency(%q<jeweler>, [">= 0"])
-    s.add_dependency(%q<rcov>, [">= 0"])
+    s.add_dependency(%q<simplecov>, [">= 0"])
     s.add_dependency(%q<rspec_tag_matchers>, [">= 0"])
   end
 end
