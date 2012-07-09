@@ -113,7 +113,7 @@ DEPENDENCIES
   bundler
   formtastic
   jeweler
-  rails (~> 3.1.0)
+  rails (>= 3.1.0)
   rcov
   rspec
   rspec_tag_matchers
