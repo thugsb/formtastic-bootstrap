@@ -14,13 +14,13 @@ require 'rake'
 require 'jeweler'
 Jeweler::Tasks.new do |gem|
   # gem is a Gem::Specification... see http://docs.rubygems.org/read/chapter/20 for more options
-  gem.name = "formtastic-bootstrap"
-  gem.homepage = "http://github.com/mjbellantoni/formtastic-bootstrap"
+  gem.name = "speedo-formstrap"
+  gem.homepage = "http://github.com/thugsb/formtastic-bootstrap"
   gem.license = "MIT"
   gem.summary = %Q{Formtastic form builder to generate Twitter Bootstrap-friendly markup.}
   gem.description = gem.summary
   gem.email = "mjbellantoni@yahoo.com"
-  gem.authors = ["Matthew Bellantoni"]
+  gem.authors = ["Matthew Bellantoni", "Stu Basden"]
   # dependencies defined in Gemfile
 end
 Jeweler::RubygemsDotOrgTasks.new
