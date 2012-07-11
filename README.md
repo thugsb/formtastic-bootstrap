@@ -14,11 +14,11 @@ Formtastic Bootstrap has only been tested with Ruby 1.9.2, Rails 3.1, Formtastic
 
 Install the gem with 
 
-    gem install formtastic-bootstrap
+    gem install speedo-formstrap
 
 Or add it to your Gemfile:
 
-    gem 'formtastic-bootstrap'
+    gem 'speedo-formstrap'
 
 And install it with <tt>bundle install</tt>.
 
@@ -29,10 +29,7 @@ Add the following line to your Formtastic initialization file:
     # config/initializers/formtastic.rb
     Formtastic::Helpers::FormHelper.builder = FormtasticBootstrap::FormBuilder
 
-Add the following line to the top of your <tt>application.css</tt> file:
-
-    # app/assets/stylesheets/application.css
-    *= require formtastic-bootstrap
+Make sure the CSS `.hidden {display:none;}` is in your project.
 
 Make sure you've already downloaded and installed Formtastic!
 
